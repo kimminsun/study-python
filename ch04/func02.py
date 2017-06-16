@@ -7,3 +7,14 @@ print(eval('1+2'))
 print(eval("('hi'+'a')"))
 print(eval('divmod(4,3)'))
 
+
+
+#filter 걸러낸다. 첫 번째 인수로 함수 이름은 ,두 번째 인수로 그 함수에 차례로 들어갈 반복 가능한 자료형을 받는다
+def positive(numberList):
+    result=[]
+    for num in numberList:
+        if num>0:
+            result.append(num)
+    return result
+
+print(positive[1,-3,2,0,5,6])
