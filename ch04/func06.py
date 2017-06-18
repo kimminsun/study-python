@@ -31,3 +31,16 @@ print(time.time())
 print(time.localtime(time.time()))
 print(time.asctime(time.localtime(time.time())))
 print(time.ctime())
+
+
+print(time.strftime('%x',time.localtime(time.time())))
+print(time.strftime('%c',time.localtime(time.time())))
+
+#sleep 주롤 루프 안에서 많이 사용 일정한 시간 간격을 두고 루프를 실행 할 수 있음
+for i in range(10):
+    print(i)
+    time.sleep(1)
+
+#calendar 파이썬에서 달력을 볼 수 있음
+import calendar
+print(calendar.calendar(2017))
