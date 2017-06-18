@@ -33,3 +33,8 @@ def random_pop(data):
 data=[1,2,3,4,5]
 random.shuffle(data)
 print(data)
+
+
+#webbrowser
+import webbrowser
+webbrowser.open("http://github.com/kimminsun")
