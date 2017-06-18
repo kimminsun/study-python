@@ -41,6 +41,4 @@ for i in range(10):
     print(i)
     time.sleep(1)
 
-#calendar 파이썬에서 달력을 볼 수 있음
-import calendar
-print(calendar.calendar(2017))
+
