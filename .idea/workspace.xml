@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8022dfc4-4958-40ad-b250-5fd67b6e4cc4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch06/ex02.py" afterPath="$PROJECT_DIR$/ch06/ex02.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch06/match.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,6 +27,7 @@
     <SUITE FILE_PATH="coverage/python$ex05.coverage" NAME="ex05 Coverage Results" MODIFIED="1494656712024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$file01.coverage" NAME="file01 Coverage Results" MODIFIED="1496565908277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch03" />
     <SUITE FILE_PATH="coverage/python$func01.coverage" NAME="func01 Coverage Results" MODIFIED="1497170258493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
+    <SUITE FILE_PATH="coverage/python$match.coverage" NAME="match Coverage Results" MODIFIED="1498918393881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch06" />
     <SUITE FILE_PATH="coverage/python$ex08.coverage" NAME="ex08 Coverage Results" MODIFIED="1495030034082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$ex13__1_.coverage" NAME="ex13 (1) Coverage Results" MODIFIED="1495635275081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch01" />
     <SUITE FILE_PATH="coverage/python$mod01.coverage" NAME="mod01 Coverage Results" MODIFIED="1497099530472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
@@ -53,16 +55,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="func04.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch04/func04.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="897">
-              <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="func05.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch04/func05.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,11 +135,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex02.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ex02.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch06/ex02.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="match.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch06/match.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -214,6 +216,7 @@
         <option value="$PROJECT_DIR$/ch05/sub_dir_search.py" />
         <option value="$PROJECT_DIR$/ch06/ex01.py" />
         <option value="$PROJECT_DIR$/ch06/ex02.py" />
+        <option value="$PROJECT_DIR$/ch06/match.py" />
       </list>
     </option>
   </component>
@@ -302,26 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ex02">
-    <configuration default="false" name="func06" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/func06.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.match">
     <configuration default="false" name="func07" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -393,6 +377,25 @@
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ex02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="match" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/match.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -567,19 +570,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.ex13" />
-      <item index="1" class="java.lang.String" itemvalue="Python.func06" />
-      <item index="2" class="java.lang.String" itemvalue="Python.func07" />
-      <item index="3" class="java.lang.String" itemvalue="Python.gugu" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ex01" />
-      <item index="5" class="java.lang.String" itemvalue="Python.ex02" />
+      <item index="1" class="java.lang.String" itemvalue="Python.func07" />
+      <item index="2" class="java.lang.String" itemvalue="Python.gugu" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ex01" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ex02" />
+      <item index="5" class="java.lang.String" itemvalue="Python.match" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ex02" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ex01" />
-        <item index="2" class="java.lang.String" itemvalue="Python.gugu" />
-        <item index="3" class="java.lang.String" itemvalue="Python.func07" />
-        <item index="4" class="java.lang.String" itemvalue="Python.func06" />
+        <item index="0" class="java.lang.String" itemvalue="Python.match" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ex02" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ex01" />
+        <item index="3" class="java.lang.String" itemvalue="Python.gugu" />
+        <item index="4" class="java.lang.String" itemvalue="Python.func07" />
       </list>
     </recent_temporary>
   </component>
@@ -632,7 +635,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex03.py" />
     <entry file="file://$PROJECT_DIR$/ex05.py" />
     <entry file="file://$PROJECT_DIR$/ex04.py" />
     <entry file="file://$PROJECT_DIR$/ex06.py" />
@@ -850,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -929,7 +930,15 @@
     <entry file="file://$PROJECT_DIR$/ch06/ex02.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch06/match.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>
