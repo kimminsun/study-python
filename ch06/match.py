@@ -16,3 +16,6 @@ print(m)
 m=p.search("3 python")
 print(m)
 
+#finadall
+result=p.findall("life is too short");
+print(result)
